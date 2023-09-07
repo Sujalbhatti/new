@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Document</title>
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+<body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+<style>
+  /* #nav {
+    position: sticky;
+    top: 0px;
+  } */
+  *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            
+
+        }
+ 
+  
+
+  
+  
+
+ 
+
+  .fa:hover {
+
+    transform: scale(1.5);
+
+
+  }
+
+  #s1 {
+    display: flex;
+    display: wrap;
+    justify-content: center;
+  }
+
+  #s2 {
+    margin-left: 500px;
+    margin-top: -200px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 28.25px;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    border-color: aliceblue;
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+  }
+
+  .checked {
+    color: rgb(255, 242, 0);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  #pagination {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #nav2 {
+    border-radius: 5px;
+
+    margin: 20px;
+  }
+  #nv{
+    transition: all;
+    /* padding: 20%;
+    margin: 40%; */
+    
+    
+  }
+  #nv:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    
+  }
+  
+  @media screen and (max-width: 500px)  {
+    #s1 {
+    display: flex;
+    display: wrap;
+    height: 340px;
+    width: 400px;
+    margin-left: -89px;
+    margin-right: -89px;
+    justify-content: center;
+  }
+    .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-left: 50px;
+}
+#mv{
+  font-size: 70%;
+}
+#mv1{
+  margin-top: -149px;
+  font-size: 75%;
+}
+.container{
+  width: 68%;
+}
+
+#rw{
+  display: flex;
+  justify-content: center;
+  margin-left: -31px;
+}
+    
+  }
+
+  
+</style>
+</head>
+
+<body style="background-image: url('bg3.1.jpg') ; background-repeat: no-repeat;
+background-size: cover;height: 100%;background-position:center ;backdrop-filter: blur(2px); 
+">
+  <div class="container-fluid">
+
+    <center>
+      <img src="logo.png" id="s1" alt="" height="500px" width="575px" style="display: flex;justify-content: center;">
+    </center>
+    <center 
+      style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 1000;font-size: 50PX;color: rgba(1, 8, 14, 0);border-radius: 15px;margin-top: -100px;-webkit-text-stroke-width: 0.7px ;-webkit-text-stroke-color: aliceblue;">
+      <h1 id="mv" style="display: flexbox;justify-content: center;display: flex;"><b style="display: flex;">2023 MOVIE & WEB </b></h1><br><br><h1><b id="mv1" style="display: flexbox;justify-content: center;display: flex;">REVIEW</b></h1></center>
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: sticky;top: 0%;display: flex;justify-content: center;">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a id="nv" class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a id="nv" class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a id="nv" class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success mr-sm-2" formaction="signup.html" type="submit" aria-label="signup">signup</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" formaction="main login.html" type="submit">login</button>
+          </form>
+        </div>
+      </nav>
+    <center><a href="main.html"><button type="menu" id="movie" class="btn btn-primary"
+          style="background-color: rgb(7, 130, 32);color: aliceblue;border-color: aliceblue;"> movies</button></a>
+      <a href="webseries.html"><button type="menu" class="btn btn-primary"
+          style="background-color: rgb(0, 0, 0);color: aliceblue;border-color: aliceblue;padding: 5px;margin: 20px;">web
+          series</button></a>
+    </center>
+
+    <center>
+      <b 
+        style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 350%;color: rgba(240, 248, 255, 0);-webkit-text-stroke-color: rgb(255, 250, 250);-webkit-text-stroke-width: 0.5px;"><b id="m1">Movies</b></b>
+    </center><br><br>
+
+
+    <div class="container" >
+      <div class="row" style="display: flexbox;justify-content: center;">
+        <div class="col-md-3"  >
+
+          <a href="spkk.html">
+            <div class="card" id="spkk" style="width: 11rem;  ">
+              <img class="card-img-top" src="spkk poster1.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>spkk:7/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b> </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="adipurush.html">
+            <div class="card" id="adipurush" style="width: 11rem;
+                 ">
+              <img class="card-img-top"  src="adipurush1.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>adipurush:3/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="pathanreview.html">
+            <div class="card" id="pathan" style="width: 11rem;
+                    ">
+              <img class="card-img-top" src="pathan.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>PATHAN:5.9/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="varisureview.html">
+            <div class="card" id="varisu" style="width: 11rem;
+                     ">
+              <img class="card-img-top" src="vaarisu img.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>varisu:6/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+
+      </div>
+    </div><br><br>
+
+
+    <div class="container">
+      <div class="row" style="display: flexbox;justify-content: center;">
+        <div class="col-sm-3"><a href="bhola.html">
+            <div class="card" id="bhola" style="width: 11rem;
+                   ">
+              <img class="card-img-top" src="bhola poster.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>BHOLA:6.1/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+
+                  </b></p>
+              </div>
+            </div>
+          </a></div>
+
+        <div class="col-sm-3">
+          <a href="kstory.html">
+            <div class="card" id="ks" style="width: 11rem;
+                   ">
+              <img class="card-img-top" src="kstorymain.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>k story:6.1/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-3">
+          <a href="thunivu.html">
+            <div class="card" style="width: 11rem;
+                   ">
+              <img class="card-img-top" src="thunivumainposter.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>Thunivu:7.5/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-3">
+          <a href="ib71.html">
+            <div class="card" id="ib71" style="width: 11rem;
+                   ">
+              <img class="card-img-top" src="ib71 main poster.jpg" alt="card img cap">
+              <div class="card-body">
+                <p class="card-text"> <b>
+                    <center>IB71:7.3/10</center><br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </b></p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br>
+
+    <div class="container" id="pagination">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" tabindex="-1" aria-disabled="true">page</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="main.html">1</a></li>
+          <li class="page-item " aria-current="page">
+            <a class="page-link" href="webseries.html">2</a>
+          </li>
+
+          <a class="page-link" href="webseries.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div><br><br><br><br>
+
+
+
+    <div class="container" style="border: 2px solid rgb(239, 232, 232);margin: auto;padding: 10px;">
+     
+      <center></span>
+        <h2
+          style="color: transparent;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;border: 2px solid white;-webkit-text-stroke-color: aliceblue;-webkit-text-stroke-width: 0.7px;display: flex;justify-content: center;">
+          <span class="fa fa-user"
+            style="font-size: 50px;color:transparent;-webkit-text-stroke-color: aliceblue;-webkit-text-stroke-width: 1px;"></span>
+          : User top review</h2>
+      </center>
+
+      <div class="row">
+
+        <div class="col-sm-3" id="rw">
+          <div class="card" style="width: 14rem;height: 20rem;margin: 15px; display: flex;">
+            <div class="card-body">
+              <h5 class="card-title"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;">
+                <center><span class="fa fa-user" style="font-size: 50px;color: rgb(40, 86, 126);"></span> <br><br>
+                  <h4> tony misburnh</h4>
+              </h5>
+              </center>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                <center><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+              </h6>
+              </center><br>
+              <p class="card-text">i like to read your reviews about movies and series it was genuenly great .</p>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-3" id="rw">
+          <div class="card" style="width: 14rem;height: 20rem;margin: 15px;">
+            <div class="card-body">
+              <h5 class="card-title"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;">
+                <center><span class="fa fa-user" style="font-size: 50px;color: rgb(40, 86, 126);"></span><br><br>
+                  <h4>otia sherlen</h4>
+              </h5>
+              </center>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                <center>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+                  <span class="fa fa-star "></span>
+              </h6>
+              </center><br>
+              <p class="card-text">thanks for providing us best movies and series review.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-3" id="rw">
+          <div class="card" style="width: 14rem;height: 20rem;margin: 15px;">
+            <div class="card-body">
+              <h5 class="card-title"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;">
+                <center><span class="fa fa-user" style="font-size: 50px;color: rgb(40, 86, 126);"></span><br> <br>
+                  <h4>john ashly</h4>
+              </h5>
+              </center>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                <center><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked "></span>
+                  <span class="fa fa-star "></span>
+              </h6>
+              </center> <br>
+              <p class="card-text">i am thankfull to not watch movies which are you reviewd badly.because it was really
+                bad thank you.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-3" id="rw">
+          <div class="card" style="width: 14rem;height: 20rem;margin: 15px;">
+            <div class="card-body">
+              <h5 class="card-title"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     font-style: italic;">
+
+                <center><span class="fa fa-user" 
+                  style="font-size: 50px;
+                  color: rgb(40, 86, 126);"></span> 
+                  <br><br>
+                  <h4>nory gingar</h4>
+              </h5>
+              </center>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                <center><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+                  <span class="fa fa-star "></span>
+                  <span class="fa fa-star "></span>
+              </h6>
+              </center><br>
+              <p class="card-text">i would like to share you everyone that the reviews are share by th filmy duniya is
+                helpfull to save our money and time.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <br><br><br><br>
+    <center 
+    style="font-size: 150%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #ede2e2;
+          margin: 30px;
+          display: flex;
+          justify-content: center;">
+      &copy; copyrighted by sujal bhatti
+    </center>
+
+
+
+
+
+
+
+
+  </div>
+
+</body>
+
+</html>
